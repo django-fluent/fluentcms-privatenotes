@@ -17,8 +17,8 @@ fluentcms-privatenotes
 Adding Sticky-notes in the admin interface for content.
 
 .. image:: https://raw.githubusercontent.com/edoburu/fluentcms-privatenotes/master/docs/images/fluentcms-privatenotes.png
-   :width: 477
-   :height: 154
+   :width: 954
+   :height: 477
 
 
 Installation
