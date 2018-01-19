@@ -5,8 +5,6 @@ fluentcms-privatenotes
     :target: http://travis-ci.org/edoburu/fluentcms-privatenotes
 .. image:: https://img.shields.io/pypi/v/fluentcms-privatenotes.svg
     :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
-.. image:: https://img.shields.io/pypi/dm/fluentcms-privatenotes.svg
-    :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
 .. image:: https://img.shields.io/badge/wheel-yes-green.svg
     :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
 .. image:: https://img.shields.io/pypi/l/fluentcms-privatenotes.svg
