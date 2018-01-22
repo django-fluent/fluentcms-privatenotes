@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='PrivateNotesItem',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('date_created', models.DateTimeField(verbose_name='Created at', auto_now_add=True)),
                 ('date_modified',models.DateTimeField(verbose_name='Last modified at', auto_now=True)),
                 ('notes', models.TextField(help_text='These notes are only visible for you as administrator', verbose_name='Notes')),
