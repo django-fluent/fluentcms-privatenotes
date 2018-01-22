@@ -1,20 +1,20 @@
 fluentcms-privatenotes
 ======================
 
-.. image:: https://img.shields.io/travis/edoburu/fluentcms-privatenotes/master.svg?branch=master
-    :target: http://travis-ci.org/edoburu/fluentcms-privatenotes
+.. image:: https://img.shields.io/travis/django-fluent/fluentcms-privatenotes/master.svg?branch=master
+    :target: http://travis-ci.org/django-fluent/fluentcms-privatenotes
 .. image:: https://img.shields.io/pypi/v/fluentcms-privatenotes.svg
     :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
 .. image:: https://img.shields.io/badge/wheel-yes-green.svg
     :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
 .. image:: https://img.shields.io/pypi/l/fluentcms-privatenotes.svg
     :target: https://pypi.python.org/pypi/fluentcms-privatenotes/
-.. image:: https://img.shields.io/codecov/c/github/edoburu/fluentcms-privatenotes/master.svg
-    :target: https://codecov.io/github/edoburu/fluentcms-privatenotes?branch=master
+.. image:: https://img.shields.io/codecov/c/github/django-fluent/fluentcms-privatenotes/master.svg
+    :target: https://codecov.io/github/django-fluent/fluentcms-privatenotes?branch=master
 
 Adding Sticky-notes in the admin interface for content.
 
-.. image:: https://raw.githubusercontent.com/edoburu/fluentcms-privatenotes/master/docs/images/fluentcms-privatenotes.png
+.. image:: https://raw.githubusercontent.com/django-fluent/fluentcms-privatenotes/master/docs/images/fluentcms-privatenotes.png
    :width: 954
    :height: 477
 
@@ -57,4 +57,4 @@ Contributing
 If you like this module, forked it, or would like to improve it, please let us know!
 Pull requests are welcome too. :-)
 
-.. _django-fluent-contents: https://github.com/edoburu/django-fluent-contents
+.. _django-fluent-contents: https://github.com/django-fluent/django-fluent-contents
