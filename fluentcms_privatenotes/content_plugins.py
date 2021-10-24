@@ -1,4 +1,4 @@
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from fluent_contents.extensions import ContentPlugin, plugin_pool
 from .models import PrivateNotesItem
 
@@ -13,7 +13,7 @@ class PrivateNotesPlugin(ContentPlugin):
     admin_form_template = ContentPlugin.ADMIN_TEMPLATE_WITHOUT_LABELS
 
     def render(self, request, instance, **kwargs):
-        return u''
+        return ''
 
     class Media:
         css = {

@@ -14,4 +14,4 @@ class PrivateNotesTests(TestCase):
         Test that the item doens't produce output.
         """
         item = create_content_item(PrivateNotesItem, notes="HIDDEN-NOTES!")
-        self.assertEqual(render_content_items([item]).html, u'')
+        self.assertEqual(render_content_items([item]).html, '')
