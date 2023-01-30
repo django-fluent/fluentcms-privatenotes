@@ -7,9 +7,12 @@ class PrivateNotesItem(ContentItem):
     """
     Private notes
     """
+
     date_created = models.DateTimeField(_("Created at"), auto_now_add=True)
     date_modified = models.DateTimeField(_("Last modified at"), auto_now=True)
-    notes = models.TextField(_("Notes"), help_text=_("These notes are only visible for you as administrator"))
+    notes = models.TextField(
+        _("Notes"), help_text=_("These notes are only visible for you as administrator")
+    )
 
     class Meta:
         verbose_name = _("Private note")
