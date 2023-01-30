@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Version 3.0 (2023-01-30)
+------------------------
+
+* Added Django 3 and 4 support.
+* Dropped Python 2.7 support.
+
+
 Version 2.0 (2018-01-22)
 ------------------------
 
